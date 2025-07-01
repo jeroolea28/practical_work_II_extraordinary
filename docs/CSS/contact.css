@@ -47,64 +47,81 @@ header h1 {
 }
 
 
+h1 {
+  font-size: 2rem;
+  color: #ff3c78;
+  margin-bottom: 10px;
+}
+
 main {
-  max-width: 1200px;
-  margin: 40px auto;
+  max-width: 800px;
+  margin: 50px auto;
   padding: 0 20px;
   text-align: center;
 }
 
-main h1 {
-  color: #ff3c78;
-  font-size: 2rem;
-  margin-bottom: 40px;
+
+main p {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  text-shadow: 1px 1px 1px #000;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-}
 
-.column {
-  width: 48%;
-}
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
+form {
+  max-width: 500px;
+  margin: 0 auto;
   background-color: #1e1e1e;
-  border: 1px solid #444;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-th, td {
-  padding: 12px 18px;
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ff3c78;
   text-align: left;
-  border: 1px solid #444;
 }
 
-th {
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 12px 24px;
   background-color: #ff3c78;
   color: #121212;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-td {
-  color: #f0f0f0;
+input[type="submit"]:hover {
+  background-color: #e6366b;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #1e1e1e;
-  color: #aaa;
+  margin-top: 60px;
   text-align: center;
   padding: 10px;
   font-size: 0.9rem;
+  color: #aaa;
   border-top: 1px solid #333;
 }
 

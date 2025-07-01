@@ -46,54 +46,35 @@ header h1 {
   color: #121212;
 }
 
-
 main {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 40px auto;
   padding: 0 20px;
-  text-align: center;
 }
 
 main h1 {
   color: #ff3c78;
   font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section {
   margin-bottom: 40px;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
+h2 {
+  font-size: 1.5rem;
+  color: #ff3c78;
+  margin-bottom: 15px;
 }
 
-.column {
-  width: 48%;
+ul {
+  padding-left: 20px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-  background-color: #1e1e1e;
-  border: 1px solid #444;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-}
-
-th, td {
-  padding: 12px 18px;
-  text-align: left;
-  border: 1px solid #444;
-}
-
-th {
-  background-color: #ff3c78;
-  color: #121212;
-}
-
-td {
-  color: #f0f0f0;
+li {
+  margin-bottom: 10px;
 }
 
 footer {
